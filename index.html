@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redes Sociales</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #c2a17c, #1e1e1e);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: white;
+        }
+
+        .container {
+            background-color: #000; /* Fondo negro */
+            border-radius: 20px;
+            padding: 30px;
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+            position: relative;
+        }
+
+        .profile-image {
+            border-radius: 15px;
+            width: 150px;
+            height: auto;
+            margin-bottom: 20px;
+            object-fit: cover;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .name {
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .social-links a {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 30px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+            width: 100%; /* Asegura que todos los botones tengan el mismo ancho */
+            max-width: 300px; /* Establecemos un ancho máximo para que no sean demasiado grandes */
+            height: 65px; /* Fijamos una altura para que todas las casillas sean iguales */
+            box-sizing: border-box; /* Para que el padding no altere el ancho */
+        }
+
+        .social-links a:hover {
+            background-color: #555;
+        }
+
+        .social-links a img {
+            width: 40px; /* Ajustamos los íconos a 40px para que sean más grandes */
+            height: auto;
+            margin-right: 15px;
+        }
+
+        .social-links a span {
+            flex-grow: 1;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Imagen de perfil de Troy -->
+        <img src="Troy.png" alt="Troy Williams" class="profile-image">
+        <div class="name">Troy Williams</div>
+        <div class="social-links">
+            <!-- Enlace de X (Twitter) -->
+            <a href="https://www.twitter.com/TroyFxCoaching" target="_blank">
+                <img src="x.png" alt="X (Twitter)">
+                <span>X (TroyFxCoaching)</span>
+            </a>
+            <!-- Enlace de Golden Trader Program -->
+            <a href="https://cti-academy.com/golden-trader-program" target="_blank">
+                <img src="cti logo simple.png" alt="Golden Trader Program">
+                <span>Golden Trader Program</span>
+            </a>
+            <!-- Enlace de Free Course (Udemy) -->
+            <a href="https://www.udemy.com/course/golden-trader-program-stt-strategy-lv1-module-1/?couponCode=ST14MT101024" target="_blank">
+                <img src="udemy-icon.png" alt="Udemy">
+                <span>Free Course</span>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
+
+
